@@ -115,7 +115,7 @@ client.on('message', message => {
   if (message.channel.type !== 'text') return;
   if (message.author.bot) return;
 
-  if ([`<@!${client.user.id}>`, `<@${client.user.id}>`].includes(message.content)) return message.channel.send(`**Hi, I\'m Amongcord!** For help, type \`${prefix}help\`.`);
+  if ([`<@!${client.user.id}>`, `<@${client.user.id}>`].includes(message.content)) return message.channel.send(`**Hi, I\'m Among-ot!** For help, type \`${prefix}help\`.`);
 
   const safePrefix = prefix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const commandExpression = new RegExp(`^${safePrefix}([a-z]*) ?`);
