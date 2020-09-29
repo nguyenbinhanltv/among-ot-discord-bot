@@ -1,0 +1,31 @@
+{
+  "name": "among-ot-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenbinhanltv/among-ot-discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenbinhanltv/among-ot-discord-bot/issues"
+  },
+  "homepage": "https://github.com/nguyenbinhanltv/among-ot-discord-bot#readme",
+  "dependencies": {
+    "@sentry/node": "^5.24.2",
+    "@sentry/tracing": "^5.24.2",
+    "discord.js": "^12.3.1",
+    "glob": "^7.1.6",
+    "socker.io": "0.0.0-alpha-beta",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
