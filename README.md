@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="200" src="https://img.icons8.com/cute-clipart/64/000000/among-us.png"/>
+  <img height="200" src="https://img.icons8.com/cute-clipart/128/000000/among-us.png"/>
   <p>Discord bot for controlling voice channels during Among Us matches</p>
   <a href=""><b>Click here to add Among-ot to your server</b></a>
 </div>
@@ -34,7 +34,7 @@
 
 <div>
   <a href="https://discord.gg/M2VgNap">
-    <img height="200" src="https://img.icons8.com/cute-clipart/64/000000/among-us.png"/>
+    <img src="https://img.icons8.com/cute-clipart/128/000000/among-us.png"/>
   </a>
 </div>
 
