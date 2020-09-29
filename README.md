@@ -1,7 +1,7 @@
 <div align="center">
-  <img height="200" src="https://svgshare.com/i/PXE.svg">
+  <img height="200" src="https://img.icons8.com/cute-clipart/64/000000/among-us.png"/>
   <p>Discord bot for controlling voice channels during Among Us matches</p>
-  <a href="https://amongcord.pedrofracassi.me/add"><b>Click here to add Among-ot to your server</b></a>
+  <a href=""><b>Click here to add Among-ot to your server</b></a>
 </div>
 
 ---
@@ -33,8 +33,8 @@
 ## Support server
 
 <div>
-  <a href="https://discord.gg/ENcM67N">
-    <img src="https://invidget.switchblade.xyz/ENcM67N"></img>
+  <a href="https://discord.gg/M2VgNap">
+    <img height="200" src="https://img.icons8.com/cute-clipart/64/000000/among-us.png"/>
   </a>
 </div>
 
