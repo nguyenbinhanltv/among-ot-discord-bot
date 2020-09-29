@@ -17,7 +17,7 @@ module.exports = class Sync extends Command {
 
       gameExistenceRequirement: GameExistenceRequirement.GAME,
       voiceChannelOnly: true,
-    })
+    });
   }
 
   run({

@@ -15,7 +15,7 @@ module.exports = class Alive extends Command {
       gameExistenceRequirement: GameExistenceRequirement.GAME,
       voiceChannelOnly: true,
       colorRequirement: ColorRequirement.DEAD
-    })
+    });
   }
 
   run({

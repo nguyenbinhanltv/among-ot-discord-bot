@@ -15,7 +15,7 @@ module.exports = class Players extends Command {
 
       gameExistenceRequirement: GameExistenceRequirement.GAME,
       voiceChannelOnly: true
-    })
+    });
   }
 
   run({

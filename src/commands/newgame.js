@@ -11,7 +11,7 @@ module.exports = class NewGame extends Command {
 
       gameExistenceRequirement: GameExistenceRequirement.NO_GAME,
       voiceChannelOnly: true
-    })
+    });
   }
 
   run({

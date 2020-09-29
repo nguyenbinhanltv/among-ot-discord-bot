@@ -20,7 +20,7 @@ module.exports = class Join extends Command {
       voicePermissionRequirement: ['MUTE_MEMBERS'],
       requiresTarget: true,
       new: true
-    })
+    });
   }
 
   run({
