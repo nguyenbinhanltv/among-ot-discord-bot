@@ -5,10 +5,10 @@ const GameExistenceRequirement = require('../GameExistenceRequirement');
 const GameParticipationRequirement = require('../GameParticipationRequirement');
 
 module.exports = class Discussion extends Command {
-  constructor () {
+  constructor() {
     super({
       name: 'discussion',
-      aliases: [ 'ds' ],
+      aliases: ['ds'],
       description: 'Sets the stage to discussion, umnutes everyone who is alive',
 
       gameExistenceRequirement: GameExistenceRequirement.GAME,
@@ -17,7 +17,11 @@ module.exports = class Discussion extends Command {
     })
   }
 
-  run ({ message, game, prefix }) {
+  run({
+    message,
+    game,
+    prefix
+  }) {
     if (!game) return message.channel.send(`No game, type \`${prefix}newgame\` to start one!`);
     game.setStage(GameStages.DISCUSSION);
     message.channel.send('Stage set to **discussion**');

@@ -4,12 +4,14 @@ module.exports = class Add extends Command {
   constructor() {
     super({
       name: 'add',
-      aliases: [ 'invite' ],
+      aliases: ['invite'],
       description: 'Shows the bot\'s invite link'
     });
   }
 
-  run ({ message }) {
+  run({
+    message
+  }) {
     message.channel.send('**Click this link to add Amongcord to your server:**\n');
   }
 }
