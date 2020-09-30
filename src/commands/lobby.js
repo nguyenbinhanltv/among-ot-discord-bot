@@ -26,7 +26,6 @@ module.exports = class Lobby extends Command {
       content: 'Stage set to **lobby**. Thanks for playing!',
       embed: {
         description: `If you appreciate **Among-ot**, please consider Shu`,
-        // description: `If you appreciate **Among-ot**, please consider [supporting the creator on Patreon](https://patreon.com/pedrofracassi) :)`,
         color: 0xf96854
       }
     });

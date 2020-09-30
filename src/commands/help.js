@@ -29,12 +29,9 @@ module.exports = class Commands extends Command {
           return `**\`${prefix}${c.name}${c.usage ? ` ${c.usage}` : ''}\`** - ${c.description} ${c.new ? emojis.get('new') || '' : ''}`;
         }).join('\n'),
         '',
-        '[**Add Among-ot to your server**](https://amongcord.pedrofracassi.me/add)',
+        '[**Add Among-ot to your server**](https://discord.com/api/oauth2/authorize?client_id=760398762571989002&permissions=12861440&redirect_uri=among-ot.codes%2Fadd&scope=bot)',
         [
           '[GitHub](https://github.com/nguyenbinhanltv/among-ot-discord-bot)',
-          '[Twitter]()',
-          '[Patreon]()',
-          '[Discord]()',
           `**${client.guilds.cache.size.toLocaleString()} servers**`,
           `Shard ${message.guild.shardID}`
         ].join(' | '),

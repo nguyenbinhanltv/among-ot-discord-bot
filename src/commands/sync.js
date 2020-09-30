@@ -30,7 +30,7 @@ module.exports = class Sync extends Command {
       .setTitle(`${game.syncId}`)
       .setURL(`${process.env.SYNC_BASE_URL}/${game.syncId}`)
       .setDescription([
-        `  **1.** Open [**sync.amongcord.xyz**](${process.env.SYNC_BASE_URL}/${game.syncId}) on your smartphone`,
+        `  **1.** Open [**nguyenbinhanltv.github.io/among-ot-sync**](${process.env.SYNC_BASE_URL}/${game.syncId}) on your smartphone`,
         '  **2.** Enter the code above and click **Connect**.'
       ])
       .setFooter('You can also click the code to open Sync directly.')
