@@ -35,7 +35,7 @@ const client = new Discord.Client({
   }
 });
 
-const io = require('socket.io')(process.env.PORT || 80);
+const io = require('socket.io')(process.env.PORT || 8080);
 
 let gameManager = new GameManager(io);
 
