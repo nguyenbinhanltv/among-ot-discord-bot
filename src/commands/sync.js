@@ -24,21 +24,17 @@ module.exports = class Sync extends Command {
     message,
     game
   }) {
-    try {
-      message.channel.send(
-        new MessageEmbed()
-        .setColor(0x7289DA)
-        .setTitle(`${game.syncId}`)
-        .setURL(`${process.env.SYNC_BASE_URL}/${game.syncId}`)
-        .setDescription([
-          `  **1.** Open [**nguyenbinhanltv.github.io/among-ot-sync**](${process.env.SYNC_BASE_URL}/${game.syncId}) on your smartphone`,
-          '  **2.** Enter the code above and click **Connect**.'
-        ])
-        .setFooter('You can also click the code to open Sync directly.')
-      );
-    } catch (error) {
-      throw error;
-    }
+    message.channel.send(
+      new MessageEmbed()
+      .setColor(0x7289DA)
+      .setTitle(`${game.syncId}`)
+      .setURL(`${process.env.SYNC_BASE_URL}/${game.syncId}`)
+      .setDescription([
+        `  **1.** Open [**nguyenbinhanltv.github.io/among-ot-sync**](${process.env.SYNC_BASE_URL}/${game.syncId}) on your smartphone`,
+        '  **2.** Enter the code above and click **Connect**.'
+      ])
+      .setFooter('You can also click the code to open Sync directly.')
+    );
     // message.channel.send(`Open https://sync.amongcord.xyz in a browser/smartphone and enter **\`${game.syncId}\`** to control the bot.`)
   }
 }
